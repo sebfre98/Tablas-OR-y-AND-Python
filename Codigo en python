@@ -1,0 +1,21 @@
+booleanos = [0, 1]
+
+# Tabla de verdad de or
+
+print('x\ty\tx or y')
+print('-'*22)
+for x in booleanos:
+    for y in booleanos:
+        print(x, y, x or y, sep = '\t')
+
+print()
+
+# Tabla de verdad de and
+
+print('x\ty\tx and y')
+print('-'*22)
+for x in booleanos:
+    for y in booleanos:
+        print(x, y, x and y, sep = '\t')
+        
+print()
